@@ -1,0 +1,88 @@
+﻿ body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:13px;
+    color:#454545;    margin:0px;    padding: 0px;    height:100%;    margin-top:17px;
+}#wrapper{
+    
+	min-height:100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -80px;
+}
+a{
+    text-decoration:none;
+    color:inherit;  
+}
+
+h3{
+    font-family:'Century Gothic';
+}
+
+.container{
+    margin: 0px auto;
+    width:750px;
+}
+#header{
+
+}
+.darker_row{
+    background-color:#f7f7f7;
+}
+#main_picture{
+    background:transparent url(img/hero2.jpg) no-repeat top center;
+    height: 200px;
+  background-position: 0px -100px;
+  background-size: 750px;
+}
+p{
+    line-height:17px;
+    margin-top:25px;
+}
+
+#logo{    text-align:right;
+}
+
+#logo a{
+    display:block;
+}
+
+#logo img{
+    max-width:200px;
+}
+
+#menu{
+    margin:0px;
+    padding: 0px;
+}
+
+#menu > li{
+    list-style: none;
+    display:inline-block;
+    line-height: 30px;
+    margin-right: 60px;
+}
+
+#footer{
+    margin-bottom:20px;
+    margin-top:60px;
+}
+
+#footer, #push{
+    height:80px;
+}
+
+#contact_box{
+
+    float:right;
+    height:inherit;
+    background-color:#fff;
+
+}
+
+.cont{
+        display:inline-block;
+}
+.cont h2{
+
+    font-size:20px;
+}

@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\hero2.jpg" />
+    <Content Include="img\PARK_STREET_LOGO.png" />
+    <Content Include="img\section1.jpg" />
+    <Content Include="Index.html" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
