@@ -169,8 +169,6 @@ p{
 #Team dl dt{
     margin-top:20px;
     font-weight:bold;
-    font-family: 'Sorts Mill Goudy', Cambria, serif;
-    font-size:16px;
 } 
 
 #Team dl dt .role{
@@ -182,4 +180,19 @@ p{
 
 #Team dl dd{
     padding-left:30px
+}
+
+.serif_text{
+    font-family: 'Sorts Mill Goudy', Cambria, serif;
+    font-size:16px;
+}
+
+#rights{
+    font-size:10px;
+    color: #C2C2C2;
+    margin: 70px 0px 0px;
+}
+
+#Investors .form-control, #Investors .btn{
+    border-radius:0px;
 }
