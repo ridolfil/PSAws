@@ -38,7 +38,9 @@ h3, h2, #menu>li>a{
 }
 
 h3{
-    font-size: 26px
+    font-size: 26px;
+    margin-top:35px;
+    margin-bottom:20px;
 }
 
 .container{
@@ -66,7 +68,7 @@ h3{
 p{
 
     line-height:24px;   
-    margin:24px 0px 0px;
+    margin:24px 0px 35px;
     font-size:13px
 
 }
@@ -162,4 +164,22 @@ p{
    #main_picture{
       height:300px
   }
+}
+
+#Team dl dt{
+    margin-top:20px;
+    font-weight:bold;
+    font-family: 'Sorts Mill Goudy', Cambria, serif;
+    font-size:16px;
+} 
+
+#Team dl dt .role{
+    font-weight:normal;
+    font-size: 12px;
+    color: #a6a6a6;
+    padding-left: 35px;
+}
+
+#Team dl dd{
+    padding-left:30px
 }

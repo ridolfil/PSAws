@@ -19,11 +19,11 @@
                     </a>
                 </div>
                 <ul id="menu">
-                    <li><a href=#>About Us</a></li>
-                    <li><a href=#>Team</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="#">Insights</a></li>
-                    <li><a href="#">Investors</a></li>
+                    <li><a href="#" onclick="selectAbout()">About Us</a></li>
+                    <li><a href="#" onclick="selectTeam()">Team</a></li>
+                    <li><a href="#" onclick="selectPartners()">Partners</a></li>
+                    <li><a href="#" onclick="selectInsights()">Insights</a></li>
+                    <li><a href="#" onclick="selectInvestors()">Investors</a></li>
                 </ul>
             </div>
         </div>
@@ -34,7 +34,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="col-xs-12 col-sm-12 col-md-8 content_item" id="About">
                     <h3>About Us</h3>
                     <p>
                         Park Street Advisors Ltd is the investment advisor for a private equity fund targeting structured real estate across the European markets. Our group focuses primarily on control-oriented investments, where we have differentiated insights and/or relationships, and where we believe we can add value.
@@ -49,9 +49,43 @@
                         Park Street Advisors Ltd is authorised and regulated by the Financial Conduct Authority and is a registered company in England and Wales (Company Number 08963060).
 
                     </p>
+
                 </div>
-            </div>
-        </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 hidden content_item" id="Team">
+                    <h3>Team</h3>
+                    <dl>
+                        <dt>
+                            Pradeep Pattem <span class="role">Founder & Chief Executive Officer </span>
+                        </dt>
+                        <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada libero ut accumsan malesuada. Suspendisse potenti. In feugiat augue quis diam accumsan consequat. Nam nec bibendum ligula. Aliquam faucibus non libero quis lobortis. Aliquam erat volutpat. Integer consequat sapien ut erat convallis, sit amet vulputate purus maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam auctor leo in ipsum rhoncus bibendum. Nam urna lorem, semper vitae eros eu, vehicula porttitor ligula.</dd>
+                        <dt>
+                            Aki Scholl<span class="role">Head of Structuring & General Counsel </span>
+                        </dt>
+                        <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada libero ut accumsan malesuada. Suspendisse potenti. In feugiat augue quis diam accumsan consequat. Nam nec bibendum ligula. Aliquam faucibus non libero quis lobortis. Aliquam erat volutpat. Integer consequat sapien ut erat convallis, sit amet vulputate purus maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam auctor leo in ipsum rhoncus bibendum. Nam urna lorem, semper vitae eros eu, vehicula porttitor ligula.</dd>
+                        <dt>
+                            Christian Mathews<span class="role">Head of Origination </span>
+                        </dt>
+                        <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada libero ut accumsan malesuada. Suspendisse potenti. In feugiat augue quis diam accumsan consequat. Nam nec bibendum ligula. Aliquam faucibus non libero quis lobortis. Aliquam erat volutpat. Integer consequat sapien ut erat convallis, sit amet vulputate purus maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam auctor leo in ipsum rhoncus bibendum. Nam urna lorem, semper vitae eros eu, vehicula porttitor ligula.</dd>
+                        <dt>
+                            Andrew La Trobe<span class="role"> Head of Asset Management</span>
+                        </dt>
+                        <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada libero ut accumsan malesuada. Suspendisse potenti. In feugiat augue quis diam accumsan consequat. Nam nec bibendum ligula. Aliquam faucibus non libero quis lobortis. Aliquam erat volutpat. Integer consequat sapien ut erat convallis, sit amet vulputate purus maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam auctor leo in ipsum rhoncus bibendum. Nam urna lorem, semper vitae eros eu, vehicula porttitor ligula.</dd>
+                    </dl>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 hidden content_item" id="Partners">
+                    <h3>Partners</h3>
+                    <p>To Do</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 hidden content_item" id="Insights">
+                    <h3>Insights</h3>
+                    <p>To Do</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 hidden content_item" id="Investors">
+                    <h3>Investors</h3>
+                    <p>To Do</p>
+                </div>
+
+                </div>
         <div id="push"></div>
     </div>
     <div class="darker_row" id="footer">
@@ -73,5 +107,43 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="Scripts/bootstrap.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+
+
+        })
+
+        function selectAbout() {
+            hide_content();
+            $("#About").removeClass("hidden");
+        }
+        function selectTeam() {
+            hide_content();
+            $("#Team").removeClass("hidden");
+        }
+        function selectPartners() {
+            hide_content();
+            $("#Partners").removeClass("hidden");
+        }
+        function selectInsights() {
+            hide_content();
+            $("#Insights").removeClass("hidden");
+        }
+        function selectInvestors() {
+            hide_content();
+            $("#Investors").removeClass("hidden");
+        }
+
+        function hide_content() {
+
+            $(".content_item").each(function (index) {
+                $(this).addClass("hidden");
+            })
+        }
+
+    </script>
 </body>
 </html>
