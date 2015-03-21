@@ -32,13 +32,13 @@ a:hover, a:visited, a:focus{
     color:inherit;
 }
 
-h3, h2, #menu>li>a{
+h1,h2,h3, h4, h5, #menu>li>a{
     color:#a6a6a6;
     font-family: 'Sorts Mill Goudy', Cambria, serif;
 }
 
 h3{
-    font-size: 26px;
+    font-size: 30px;
     margin-top:35px;
     margin-bottom:20px;
 }
@@ -75,7 +75,8 @@ p{
 
 #logo{
     text-align:right;
-    margin-bottom:14px
+    margin-bottom:14px;
+    padding-right:10px;
 }
 
 #logo a{
@@ -126,7 +127,7 @@ p{
    
 
 }
-.contact_inner h2{
+.contact_inner h4{
     margin-top:0px;
     font-size:18px;
     margin-right:90px;
@@ -179,7 +180,8 @@ p{
 }
 
 #Team dl dd{
-    padding-left:30px
+    padding:10px 0px 10px 30px;
+ 
 }
 
 .serif_text{
@@ -195,4 +197,24 @@ p{
 
 #Investors .form-control, #Investors .btn{
     border-radius:0px;
+}
+
+#Insights h4{
+font-size: 22px;
+margin-bottom: 0px;
+color: #1D1D1D;
+margin-top:45px;
+}
+
+#Insights .article_date{
+    font-size: 10px;
+color: #9c9c9c;
+margin: 0px;
+line-height: 13px;
+}
+
+#Insights .article_body{
+    margin-left:20px;
+    padding-left:15px;
+    border-left:#D3D3D3 1px solid;
 }
