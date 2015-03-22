@@ -75,7 +75,7 @@ p{
 
 #logo{
     text-align:right;
-    margin-bottom:14px;
+    margin-bottom:5px;
     padding-right:10px;
 }
 
@@ -84,7 +84,7 @@ p{
 }
 
 #logo img{
-    max-width:260px;
+    max-width:210px;
 }
 
 #menu{
@@ -96,8 +96,8 @@ p{
     list-style: none;
     display:inline-block;
     line-height: 30px;
-    margin-right: 60px;
-    font-size:14px
+    margin-right: 35px;
+    font-size:12px
 
 }
 
@@ -165,6 +165,18 @@ p{
    #main_picture{
       height:300px
   }
+
+   #menu > li{
+    margin-right: 60px;
+    font-size:14px
+    }
+
+   #logo img{
+    max-width:260px;
+}
+   #logo{
+    margin-bottom:14px;
+    }
 }
 
 #Team dl dt{
