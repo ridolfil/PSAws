@@ -66,11 +66,9 @@ h3{
 }
 
 p{
-
-    line-height:24px;   
-    margin:24px 0px 35px;
-    font-size:13px
-
+      line-height: 20px;
+  margin: 18px 0px 33px;
+  font-size: 12px;
 }
 
 #logo{
@@ -102,8 +100,8 @@ p{
 }
 
 #footer{
-    height:100px;
-    margin-top:50px;
+    height:85px;
+    margin-top:40px;
 }
 #push{
     height:100px
@@ -147,6 +145,12 @@ p{
     font-size: 10px;
 }
 
+#rights{
+    font-size:10px;
+    color: #C2C2C2;
+    margin: 55px 0px 0px;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 750px;
@@ -177,6 +181,19 @@ p{
    #logo{
     margin-bottom:14px;
     }
+
+   #rights{
+    margin: 70px 0px 0px;
+}
+   #footer{
+    height:100px;
+    margin-top:50px;
+}
+   p{
+    line-height:24px;   
+    margin:24px 0px 35px;
+    font-size:13px
+    }
 }
 
 #Team dl dt{
@@ -201,11 +218,6 @@ p{
     font-size:16px;
 }
 
-#rights{
-    font-size:10px;
-    color: #C2C2C2;
-    margin: 70px 0px 0px;
-}
 
 #Investors .form-control, #Investors .btn{
     border-radius:0px;
