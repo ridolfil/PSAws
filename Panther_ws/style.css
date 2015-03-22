@@ -78,6 +78,13 @@ input{
    background-color: #A3ADAB;
 }
 
+#email-input{
+    margin-right:35px
+}
+
+#pwd-input{
+    margin-left:35px
+}
 .form-div{
     display:inline-block;
     margin-top: 35px;
@@ -95,4 +102,24 @@ button.loginbutton:focus {
 outline-color: rgb(25, 59, 63);
 outline-width: 1px;
 outline-style: solid;
+}
+
+
+@media (max-width:1300px){
+
+    #email-input{
+    margin-right:0px
+}
+
+#pwd-input{
+    margin-left:0px;
+    margin-top:20px;
+
+}
+
+.loginbutton{
+    margin-top:20px;
+    width:200px;
+}
+
 }
