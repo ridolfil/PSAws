@@ -1,0 +1,20 @@
+﻿ body {
+
+}
+
+#first_container{
+    height:100%;
+    width:100%;
+}
+
+#inner_container{
+     background-color:#1c0e1e;
+     margin:6%;
+}
+
+#content{
+    background-color:Window;
+    height:100px;
+    width:100px;
+}
+
