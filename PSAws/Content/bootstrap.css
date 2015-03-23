@@ -6376,7 +6376,7 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
-@media (max-width: 767px) {
+@media (max-width: 478px) {
   .visible-xs {
     display: block !important;
   }
@@ -6391,17 +6391,17 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 478px) {
   .visible-xs-block {
     display: block !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 478px) {
   .visible-xs-inline {
     display: inline !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 478px) {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
@@ -6496,7 +6496,7 @@ button.close {
     display: inline-block !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 478px) {
   .hidden-xs {
     display: none !important;
   }

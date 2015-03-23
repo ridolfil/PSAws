@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Park Street Advisors</title>
-    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
 </head>
@@ -18,7 +18,7 @@
                         <img src="img/PARK_STREET_LOGO.png" alt="Park Street Advisors" />
                     </a>
                 </div>
-                <ul id="menu">
+                <ul id="menu" class="hidden-xs col-xs-offset-1">
                     <li><a href="#" onclick="selectAbout()">About Us</a></li>
                     <li><a href="#" onclick="selectTeam()">Team</a></li>
                     <li><a href="#" onclick="selectPartners()">Partners</a></li>
@@ -34,7 +34,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8 content_item" id="About">
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-8 content_item" id="About">
                     <h3>About Us</h3>
                     <p>
                         Park Street Advisors Ltd is the investment advisor for a private equity fund targeting structured real estate across the European markets. Our group focuses primarily on control-oriented investments, where we have differentiated insights and/or relationships, and where we believe we can add value.
@@ -49,9 +49,10 @@
                         Park Street Advisors Ltd is authorised and regulated by the Financial Conduct Authority and is a registered company in England and Wales (Company Number 08963060).
 
                     </p>
-
+                    <hr class="visible-xs" />
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 hidden content_item" id="Team">
+                
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-12 visible-xs content_item" id="Team">
                     <h3>Team</h3>
                     <dl>
                         <dt class="serif_text">
@@ -71,12 +72,15 @@
                         </dt>
                         <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada libero ut accumsan malesuada. Suspendisse potenti. In feugiat augue quis diam accumsan consequat. Nam nec bibendum ligula. Aliquam faucibus non libero quis lobortis. Aliquam erat volutpat. Integer consequat sapien ut erat convallis, sit amet vulputate purus maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam auctor leo in ipsum rhoncus bibendum. Nam urna lorem, semper vitae eros eu, vehicula porttitor ligula.</dd>
                     </dl>
+                    <hr class="visible-xs" />
+
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-8 hidden content_item" id="Partners">
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-8 visible-xs content_item" id="Partners">
                     <h3>Partners</h3>
                     <p>To Do</p>
+                    <hr class="visible-xs" />
                 </div>
-                <div class="col-md-12 hidden content_item" id="Insights">
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-12 visible-xs content_item" id="Insights">
                     <h3>Insights</h3>
                     <p>Explain here.</p>
 
@@ -109,21 +113,22 @@
                         </p>
                         <p>Quisque tempor, sapien in luctus pharetra, neque odio cursus eros, non ullamcorper dolor arcu vitae turpis. Aenean tellus ligula, interdum quis nulla vel, ultricies dignissim enim. </p>
                     </div>
+                    <hr class="visible-xs" />
                 </div>
-                <div class="col-md-12 hidden content_item" id="Investors">
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-12 visible-xs content_item" id="Investors">
                     <h3>Investors</h3>
-                    <div style="margin-top:70px">
+                    <div id="form-div">
                         <form class="form-horizontal serif_text">
                             <div class="form-group">
                                 <label for="Email" class="col-sm-2 control-label">Email</label>
-                                <div class="col-sm-3">
+                                <div class="col-sm-4 col-md-3">
                                     <input type="email" class="form-control" id="Email" placeholder="Email">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="Password" class="col-sm-2 control-label">Password</label>
-                                <div class="col-sm-3">
+                                <div class="col-sm-4 col-md-3">
                                     <input type="password" class="form-control" id="Password" placeholder="Password">
                                 </div>
                             </div>
@@ -149,7 +154,7 @@
                 </div>
                 <div class="contact_inner">
                     <a href="mailto:lridolfi@parkstreetadvisors.co.uk" id="mailto">Email</a>
-                    <p>Dover Street 41</p>
+                    <p>41 Dover Street</p>
                     <p>London W1S 4NS</p>
                     <p>United Kingdom</p>
                 </div>
@@ -172,29 +177,29 @@
 
         function selectAbout() {
             hide_content();
-            $("#About").removeClass("hidden");
+            $("#About").removeClass("visible-xs");
         }
         function selectTeam() {
             hide_content();
-            $("#Team").removeClass("hidden");
+            $("#Team").removeClass("visible-xs");
         }
         function selectPartners() {
             hide_content();
-            $("#Partners").removeClass("hidden");
+            $("#Partners").removeClass("visible-xs");
         }
         function selectInsights() {
             hide_content();
-            $("#Insights").removeClass("hidden");
+            $("#Insights").removeClass("visible-xs");
         }
         function selectInvestors() {
             hide_content();
-            $("#Investors").removeClass("hidden");
+            $("#Investors").removeClass("visible-xs");
         }
 
         function hide_content() {
 
             $(".content_item").each(function (index) {
-                $(this).addClass("hidden");
+                $(this).addClass("visible-xs");
             })
         }
 

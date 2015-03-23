@@ -65,7 +65,7 @@ h3{
     background-size: 120%;
 }
 
-p{
+p, #Team dl dd{
       line-height: 20px;
   margin: 18px 0px 33px;
   font-size: 12px;
@@ -195,6 +195,64 @@ p{
     font-size:13px
     }
 }
+hr{
+    margin-bottom:-1px;
+}
+    #form-div{
+        margin-top:70px;
+    }
+
+
+@media (max-device-width:479px){
+
+    h3 {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+    p, #Team dl dd{  
+           line-height: 17px;
+           margin: 15px 0px 15px;
+           font-size: 11px;
+    }
+
+    #Team dl dd {
+  padding: 10px 0px 10px 30px;
+}
+    #Team dl dd {
+  padding: 0px 0px 5px 24px;
+}
+
+    #form-div{
+        margin-top:30px;
+    }
+
+    #Insights .article_body {
+        margin-left: 5px;
+        padding-left: 7px;
+    }
+
+    body{
+        padding-top:8px;
+    }
+
+    #logo{
+        margin-bottom:10px;
+    }
+
+    #logo img {
+  max-width: 160px;
+}
+    #main_picture {
+     height:150px;
+    }
+}
+
+@media (max-width:767){
+    #menu {
+        margin-left: 8.33333333%;
+    }
+}
 
 #Team dl dt{
     margin-top:20px;
@@ -242,3 +300,4 @@ line-height: 13px;
     padding-left:15px;
     border-left:#D3D3D3 1px solid;
 }
+
