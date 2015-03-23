@@ -203,28 +203,30 @@ hr{
     }
 
 
-@media (max-device-width:479px){
+@media (max-device-width:479px) {
 
     h3 {
-  font-size: 25px;
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-    p, #Team dl dd{  
-           line-height: 17px;
-           margin: 15px 0px 15px;
-           font-size: 11px;
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    p, #Team dl dd {
+        line-height: 17px;
+        margin: 15px 0px 15px;
+        font-size: 11px;
     }
 
     #Team dl dd {
-  padding: 10px 0px 10px 30px;
-}
-    #Team dl dd {
-  padding: 0px 0px 5px 24px;
-}
+        padding: 10px 0px 10px 30px;
+    }
 
-    #form-div{
-        margin-top:30px;
+    #Team dl dd {
+        padding: 0px 0px 5px 24px;
+    }
+
+    #form-div {
+        margin-top: 30px;
     }
 
     #Insights .article_body {
@@ -232,43 +234,67 @@ hr{
         padding-left: 7px;
     }
 
-    body{
-        padding-top:8px;
+    body {
+        padding-top: 8px;
     }
 
-    #logo{
-        margin-bottom:10px;
+    #logo {
+        margin-bottom: 10px;
     }
 
-    #logo img {
-  max-width: 160px;
-}
+        #logo img {
+            max-width: 160px;
+        }
+
     #main_picture {
-     height:150px;
+        height: 150px;
     }
+
+#footer{
+    display:none;
+}
 }
 
-@media (max-width:767){
+.contact_mobile{
+    text-align:center;
+}
+.contact_mobile p{
+    margin: 0;
+  padding: 0;
+  line-height: 13px;
+  font-size: 10px;
+}
+
+#footer_mobile h4{
+    font-size:21px;
+    text-align:center;
+}
+#footer_mobile #mailto{
+      margin-bottom: 5px;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+@media (max-width:991px){
     #menu {
-        margin-left: 8.33333333%;
+        margin-left: 8.33333333%!important;
     }
 }
 
-#Team dl dt{
-    margin-top:20px;
-    font-weight:bold;
-} 
-
-#Team dl dt .role{
-    font-weight:normal;
-    font-size: 12px;
-    color: #a6a6a6;
-    padding-left: 35px;
+#Team dl dt {
+    margin-top: 20px;
+    font-weight: bold;
 }
 
-#Team dl dd{
-    padding:10px 0px 10px 30px;
- 
+    #Team dl dt .role {
+        font-weight: normal;
+        font-size: 12px;
+        color: #a6a6a6;
+        padding-left: 35px;
+    }
+
+#Team dl dd {
+    padding: 10px 0px 10px 30px;
 }
 
 .serif_text{
