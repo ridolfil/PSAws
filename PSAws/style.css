@@ -1,5 +1,6 @@
 ﻿html,body{
-    height:100%
+    height:100%;
+    overflow-x:hidden;
 }
  
 body{
@@ -209,6 +210,10 @@ hr{
 
 @media (max-device-width:479px){
 
+     html,body
+{
+    overflow-x: hidden; 
+}
     h3 {
         font-size: 25px;
         margin-top: 25px;
@@ -252,6 +257,7 @@ hr{
 
     #main_picture {
         height: 150px;
+        background-size:105%;
     }
 
 #footer{
