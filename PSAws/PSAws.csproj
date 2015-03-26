@@ -63,6 +63,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="img\hero2.jpg" />
+    <Content Include="img\London2.jpg" />
     <Content Include="img\PARK_STREET_LOGO.png" />
     <Content Include="img\section1.jpg" />
     <Content Include="Index.html" />
